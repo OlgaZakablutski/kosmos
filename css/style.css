@@ -1,0 +1,190 @@
+/* CSS Reset */
+
+/* Remove default margin and padding */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/* Set font and background color to inherit */
+body {
+  line-height: 1;
+  font-family: sans-serif;
+  color: inherit;
+  background: transparent;
+}
+
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+
+/* Make images and objects behave like inline elements */
+img, object, embed {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Remove borders and spacing for table-related elements */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove underline for links on hover */
+a:hover {
+  text-decoration: none;
+}
+
+/*css reset end*/
+
+.navbar {
+	background-color:  #002366;
+	color: azure;
+}
+
+
+#logo{
+		  width: 100px;
+		  margin-right: 0px;
+		  padding-left: 20px;
+		}
+
+.body {
+	background-color: #002366;
+	height: 100%;
+	width: 100%;
+}
+
+
+.allitemsNav {
+		display: flex;
+		justify-content: space-around;
+  }
+
+  .hero {
+	background: url(/img/earth-1756274_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+ }
+ 
+ .hero h1 {
+	color: aliceblue;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	margin: -500px 70px 0;
+	text-align: center;
+ }
+ 
+ .hero h2 {
+	font-family: 'Roboto', sans-serif;
+	color: bisque;
+	font-style: italic;
+	padding: 20px;
+	text-align: center;
+	font-size: 2rem ;
+ }
+ 
+
+  .voyage{
+	height: 150px; 
+	margin-right: 20px;
+	margin-top: 200px;
+	margin-bottom: 400px;
+
+ }
+
+ .voyage h1 {
+	color: rgb(56, 56, 92);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	margin: 100px 70px 100;
+	text-align: center;
+	margin-bottom: 100px;
+ }
+
+
+ .mission {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 200px;
+	
+	
+ }
+ 
+ .mission-info {
+	flex: 1;
+	padding: 20px;
+	background-color: #f0f0f0;
+	height: 300px;
+ }
+ 
+ .mission-info h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+ }
+ 
+ .mission-info p {
+	margin-bottom: 20px;
+ }
+ 
+ .mission-image {
+	text-align: center;
+	margin-left: 20px;
+ }
+ 
+ .mission-image img {
+	width: 300px;
+	height: 300px;
+ }
+
+ .missions h1 {
+	color: rgb(56, 56, 92);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	margin: 700px 70px 100;
+	text-align: center;
+ }
+ 
+
+ .mission h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 50px;
+ }
+ 
+ .learn-more {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #4286f4;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+ }
+ 
+
