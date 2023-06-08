@@ -61,7 +61,22 @@ a:hover {
 	color: azure;
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
+	font-family: 'Montserrat', sans-serif;
 }
+
+.nav-item {
+	color: azure;
+	
+}
+
+.navbar-brand {
+	color: #F69322;
+}
+
+.navbar-toggler-icon {
+	background-color: #F69322;
+}
+
 
 
 
@@ -71,10 +86,12 @@ a:hover {
 		  padding-left: 20px;
 		}
 
-.allitemsNav {
+/* .allitemsNav {
 		display: flex;
 		justify-content: space-around;
-  }
+  } */
+
+ 
 
   .body {
 	background-color: #002366;
@@ -130,25 +147,9 @@ a:hover {
 	margin-bottom: 100px;
  }
 
- .mission {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin-bottom: 20px;
-	margin-top: 100px;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
- }
  .mission-info {
-	flex: 1;
 	padding: 20px;
 	background-color: #C0C0C0;
-	height: 300px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	text-align: center;
  }
  
@@ -164,16 +165,7 @@ a:hover {
 	font-family: 'Roboto', sans-serif;
 	color: #4e4d4d;
  }
- 
- .mission-image {
-	text-align: center;
-	margin-right: 20px;
- }
- 
- .mission-image img {
-	width: 300px;
-	height: 300px;
- }
+
 
  .missions h1 {
 	color: #002366;
@@ -186,7 +178,7 @@ a:hover {
  .mission h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
  }
  
  .learn-more {
@@ -236,27 +228,3 @@ a:hover {
 	z-index: 2;
 	color: #F69322;
  }
-
-
-
- @media (max-width: 991px) {
-	/* Стили для планшета и мобильного телефона */
-	.navbar-collapse {
-	  /* Дополнительные стили */
-	}
- 
-	.navbar-nav {
-	  /* Дополнительные стили */
-	}
- 
-	/* Другие стили, специфичные для планшета и мобильного телефона */
- }
- 
- @media (max-width: 576px) {
-	/* Стили только для мобильного телефона */
-	/* Дополнительные стили для небольших экранов */
- }
-
-
-
- @media screen and (min-width:767px) and (max-width:1200px) {
