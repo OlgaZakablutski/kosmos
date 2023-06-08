@@ -64,10 +64,7 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.nav-item {
-	color: azure;
-	
-}
+
 
 .navbar-brand {
 	color: #F69322;
@@ -227,4 +224,10 @@ a:hover {
 	/* border: solid 1px #F69322; */
 	z-index: 2;
 	color: #F69322;
+ }
+
+ @media screen and (min-width:767px) {
+	.hero h1 {
+		margin-top: -350px;
+	}
  }
