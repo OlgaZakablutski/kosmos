@@ -90,21 +90,64 @@
 			 </ul>
 
 			 <div class="d-flex">
-				<button class="btn btn-outline-success" data-toggle="modalSignIn" data-target="#modalSignIn">Sign in</button>
+				<button class="btn btn-outline-success" data-toggle="modal" data-target="#modalSignIn">Sign in</button>
 				<button class="btn btn-outline-danger ml-3">Sign out</button>
 			  </div>
 		  </div>
 		</div>
 	</nav>
 
-	<div class="hero container-fluid">
-		<h1 class="text-center">Exploring New Horizons: AstroNautica Solutions <br>
-			at the forefront of space innovation.  </h1>
+		<!-- Modal-->
+<div class="modal fade" id="modalSignIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+				<button class="btn-close" data-dismiss="modal" aria-label="close"></button>
+			</div>
+			<div class="modal-body">
+				<form action="">
+					<div class="row mb-3" >
+						<label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="inputEmail">
+						</div>
+					</div>
+					<div class="row mb-3" >
+						<label for="inputPass" class="col-sm-2 col-form-label">Password</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="inputPass">
+						</div>
+					</div>
+					<fieldset>
+						<div class="row mb-3">
+							<div class="col-for-label col-sm-2"></div>
+							<div class="col-sm-10">
+								<div class="form-check">
+									<input type="checkbox" id="gridCheck" class="forcheck-input">
+									<label for="gridCheck" class="form-check-label">Save password</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<section class="hero">
+		<div class="container">
+		<h1 class="text-center" style="margin-top: -300px;">Exploring New Horizons: AstroNautica Solutions <br>
+			at the forefront of space innovation. <br><br></h1>
 		
-		<h2 class="text-center">Join us on our quest to unlock the mysteries of the cosmos.</h2>
-		
+		<h2 class="text-center" style="margin-top: -50px;">Join us on our quest to unlock the mysteries of the cosmos. </h2>
+	</div>
 	
-	 </div>
+	 </section>
 
 
 	 <section class="voyage" id="voyage">
@@ -176,7 +219,7 @@
  
 	  <div class="mission">
 		 <div class="mission-image">
-			<img src="/img/800px-Titan_3E_Centaur_launches_Voyager_2.jpg" alt="mission Image">
+			<img src="/img/craiyon_110722_Apollo_Program__1961_1972__.png" alt="mission Image">
 		 </div>
 		 <div class="mission-info">
 			<h3>Apollo Program (1961-1972):</h3>
@@ -191,7 +234,7 @@
 	<div class="modal-dialog" role="document">
 	  <div class="modal-content">
 		 <div class="modal-header">
-			<h5 class="modal-title" id="exampleModalLabel">Apollo Program (1961-1972):</h5>
+			<h5 class="modal-title" id="exampleModalLabel" style="font-family: 'Montserrat', sans-serif; font-size:larger; color: #002366">Apollo Program (1961-1972):</h5>
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			  <span aria-hidden="true">&times;</span>
 			</button>
@@ -201,7 +244,7 @@
 				<div class="col">
 					<img src="/img/craiyon_110722_Apollo_Program__1961_1972__.png" alt="">
 							</div>
-				<div class="col">
+				<div class="col text-center" style="font-family: 'Roboto', sans-serif; color:#808080">
 			The Apollo Program, led by NASA, aimed to land humans on the Moon. Apollo 11, in July 1969, achieved this historic 
 			feat with astronauts Neil Armstrong and Buzz Aldrin becoming the first humans to set foot on the lunar surface. 
 			The program included several other missions that further explored the Moon and conducted scientific experiments.
@@ -260,7 +303,7 @@
  
 	  <div class="mission">
 		 <div class="mission-image">
-			<img src="/img/craiyon_110722_Apollo_Program__1961_1972__.png" alt="mission Image">
+			<img src="/img/800px-Titan_3E_Centaur_launches_Voyager_2.jpg" alt="mission Image">
 		 </div>
 		 <div class="mission-info">
 			<h3>Voyager Program (1977):</h3>

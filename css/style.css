@@ -71,17 +71,16 @@ a:hover {
 		  padding-left: 20px;
 		}
 
-.body {
-	background-color: #002366;
-	height: 100%;
-	width: 100%;
-}
-
-
 .allitemsNav {
 		display: flex;
 		justify-content: space-around;
   }
+
+  .body {
+	background-color: #002366;
+	height: 100%;
+	width: 100%;
+}
 
   .hero {
 	background: url(/img/earth-1756274_1920.jpg);
@@ -91,15 +90,16 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+		align-items: center;
+	margin-top: 0;
 	
  }
- 
+	
  .hero h1 {
 	color: aliceblue;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3rem;
-	margin: -500px 70px 0;
+	margin: 0px 70px 0;
 	text-align: center;
  }
  
@@ -174,7 +174,7 @@ a:hover {
 	width: 300px;
 	height: 300px;
  }
- 
+
  .missions h1 {
 	color: #002366;
 	font-family: 'Montserrat', sans-serif;
@@ -236,3 +236,27 @@ a:hover {
 	z-index: 2;
 	color: #F69322;
  }
+
+
+
+ @media (max-width: 991px) {
+	/* Стили для планшета и мобильного телефона */
+	.navbar-collapse {
+	  /* Дополнительные стили */
+	}
+ 
+	.navbar-nav {
+	  /* Дополнительные стили */
+	}
+ 
+	/* Другие стили, специфичные для планшета и мобильного телефона */
+ }
+ 
+ @media (max-width: 576px) {
+	/* Стили только для мобильного телефона */
+	/* Дополнительные стили для небольших экранов */
+ }
+
+
+
+ @media screen and (min-width:767px) and (max-width:1200px) {
