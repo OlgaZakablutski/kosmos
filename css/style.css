@@ -75,20 +75,12 @@ a:hover {
 }
 
 
-
-
 #logo{
 		  width: 100px;
 		  margin-right: 0px;
 		  padding-left: 20px;
 		}
 
-/* .allitemsNav {
-		display: flex;
-		justify-content: space-around;
-  } */
-
- 
 
   .body {
 	background-color: #002366;
@@ -104,7 +96,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-		align-items: center;
+	align-items: center;
 	margin-top: 0;
 	
  }
